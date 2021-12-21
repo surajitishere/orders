@@ -1,0 +1,241 @@
+* {
+  box-sizing: border-box;
+  list-style-type: none;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  margin: 0px;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 3.5fr;
+  grid-template-rows: 60px auto;
+  height: 100vh;
+}
+.header {
+  background-color: rgb(214, 214, 214);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.header h3 {
+  font-size: 25px;
+}
+.header h4 {
+  font-size: 17px;
+}
+.header input {
+  width: 500px;
+  border-radius: 100px;
+  border: none;
+  height: 35px;
+}
+.admin-info {
+  width: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.admin-img {
+  height: 40px;
+  border-radius: 100px;
+}
+.sidebar {
+  background-color: rgb(0, 0, 94);
+  color: white;
+  grid-column-start: 1;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.sidebar-search {
+  display: flex;
+  justify-content: center;
+}
+.sidebar h1 {
+  text-align: center;
+  font-size: 35px;
+}
+.sidebar input {
+  width: 170px;
+  height: 40px;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+  border: none;
+  border-left: solid 1px rgb(22, 102, 168);
+  background-color: rgb(12, 22, 160);
+}
+.sidebar-search-btn {
+  width: 40px;
+  height: 40px;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+  margin-left: 0px;
+  border: none;
+  background-color: rgb(12, 22, 160);
+}
+.nav-list ul {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-size: 23px;
+  margin-left: 60px;
+}
+.side-bottom {
+  margin-top: auto;
+  background-color: rgb(39, 23, 110);
+  height: 80px;
+  padding-top: 12px;
+}
+.side-bottom-img {
+  float: left;
+  height: 50px;
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+.side-bottm-text {
+  margin: 0px;
+  margin-top: 5px;
+  font-size: 20px;
+}
+.side-bottm-subtext {
+  margin-top: 5px;
+  font-size: 12px;
+}
+.body {
+  padding-left: 30px;
+  padding-top: 30px;
+}
+.body h1 {
+  font-size: 35px;
+  display: inline;
+}
+.learn-more {
+  color: rgb(6, 102, 139);
+  margin-left: 20px;
+}
+.order-id-btn {
+  width: 80px;
+  height: 40px;
+  border-radius: 25px;
+  border: solid black 2px;
+  margin-left: 70px;
+  background-color: white;
+}
+.body-search {
+  display: inline;
+  margin-left: 20px;
+}
+.body-search input {
+  width: 300px;
+  height: 40px;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border: solid black 2px;
+  margin-right: 0px;
+}
+.body-search button {
+  height: 40px;
+  width: 60px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border: solid black 2px;
+  margin-left: 0px;
+  background-color: white;
+}
+.order-type ul {
+  display: flex;
+  padding-left: 0px;
+}
+.order-type ul li {
+  margin-left: 40px;
+  font-size: 20px;
+  color: rgb(2, 2, 102);
+}
+.order-type ul li span {
+  color: rgb(114, 81, 10);
+}
+hr {
+  width: 1100px;
+  margin-left: 0px;
+}
+.body h2 {
+  font-size: 30px;
+  display: inline;
+}
+.order-id {
+  border-radius: 20px;
+  border: none;
+  margin-left: 800px;
+  background-color: rgb(192, 190, 190);
+  height: 25px;
+}
+.refresh-btn {
+  border-radius: 20px;
+  border: none;
+  margin: 20px;
+  background-color: rgb(192, 190, 190);
+  height: 25px;
+}
+.table-head {
+  background-color: rgb(192, 190, 190);
+  display: flex;
+  width: 1100px;
+  border-radius: 40px;
+  justify-content: space-around;
+}
+.table-row {
+  display: flex;
+  width: 1100px;
+  justify-content: space-around;
+}
+.datentime {
+  color: grey;
+}
+.order-number {
+  color: teal;
+}
+.customer-name {
+  color: blue;
+}
+.order-details {
+  margin-left: 40px;
+}
+.customer-image {
+  height: 50px;
+  border-radius: 20px;
+  margin-left: 40px;
+}
+.item-name {
+  color: blue;
+}
+.product-name {
+  margin-left: 40px;
+}
+.order-status {
+  margin-left: 40px;
+}
+.pickup-btn {
+  height: 45px;
+  width: 130px;
+  border-radius: 15px;
+  border: none;
+  color: white;
+  background-color: rgb(55, 177, 55);
+}
+.print-packing-btn,
+.cancel-order-btn,
+.print-invoice-btn {
+  height: 35px;
+  width: 130px;
+  border-radius: 100px;
+  border: none;
+  background-color: rgb(192, 190, 190);
+  color: white;
+  margin-bottom: 10px;
+}

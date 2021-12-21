@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/b2f2c34b1e.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Orders</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <section class="header">
+        <h3>Shop Name</h3>
+        <input type="text" />
+        <div class="admin-info">
+          <img
+            src="https://png.pngtree.com/png-vector/20190223/ourmid/pngtree-admin-rolls-glyph-black-icon-png-image_691507.jpg"
+            alt="img"
+            class="admin-img"
+          />
+          <h4>Admin</h4>
+        </div>
+      </section>
+      <section class="sidebar">
+        <h1>
+          ConnX Eats <br />
+          Seller Central
+        </h1>
+        <div class="sidebar-search">
+          <button class="sidebar-search-btn">
+            <i class="fas fa-search"></i>
+          </button>
+          <input type="text" placeholder="Search..." class="search-input" />
+        </div>
+        <div class="nav-list">
+          <ul>
+            <li>Dashboard</li>
+            <li>Customers</li>
+            <li>Products</li>
+            <li>Analytics</li>
+            <li>Orders</li>
+          </ul>
+        </div>
+        <div class="side-bottom">
+          <img
+            src="https://png.pngtree.com/png-vector/20190223/ourmid/pngtree-admin-rolls-glyph-black-icon-png-image_691507.jpg"
+            alt="img"
+            class="side-bottom-img"
+          />
+          <p class="side-bottm-text">Shop name</p>
+          <p class="side-bottm-subtext">Admin Portal</p>
+        </div>
+      </section>
+      <section class="body">
+        <h1>My Orders</h1>
+        <span class="learn-more">Learn More | Video Tutorial </span>
+        <button class="order-id-btn">Order ID</button>
+        <div class="body-search">
+          <input type="text" />
+          <button>
+            <i class="fas fa-search"></i>
+          </button>
+        </div>
+        <div class="order-type">
+          <ul>
+            <li style="margin-left: 0px">
+              <span class="order-type-number">1</span> Pending
+            </li>
+            <li><span class="order-type-number">0</span> Unshipped</li>
+            <li><span class="order-type-number">0</span> Cancelled</li>
+            <li><span class="order-type-number">0</span> Unsent</li>
+          </ul>
+        </div>
+        <hr />
+        <h2>1 Order</h2>
+        <button class="order-id">
+          Order ID <i class="fas fa-caret-down"></i>
+        </button>
+        <button class="refresh-btn">Refresh</button>
+        <div class="order-table">
+          <div class="table-head">
+            <p>Order Date</p>
+            <p>Order Details</p>
+            <p>Image</p>
+            <p>Product Name</p>
+            <p>Order Status</p>
+            <p>Action</p>
+          </div>
+          <div class="table-row">
+            <p>
+              2 minutes ago <br />
+              <span class="datentime">21/12/2021</span> <br />
+              <span class="datentime">7:16 am IST</span>
+            </p>
+            <p class="order-details">
+              <span class="order-number">213-3342344-4</span> <br />
+              <span>Buyer Name: </span> <br />
+              <span class="customer-name">parth</span>
+            </p>
+            <p>
+              <img
+                src="https://png.pngtree.com/png-vector/20190223/ourmid/pngtree-admin-rolls-glyph-black-icon-png-image_691507.jpg"
+                alt="img"
+                class="customer-image"
+              />
+            </p>
+            <p class="product-name">
+              <span class="item-name">Chole Bhature</span> <br />
+              <span>ASIN: B56B5S5 </span> <br />
+              <span>Quantity</span> <br />
+              <span>Subtotal:1.236</span>
+            </p>
+            <p class="order-status">
+              <button class="pickup-btn">Schedule Pickup</button>
+            </p>
+            <p>
+              <button class="print-packing-btn">Print Packing Slip</button
+              ><br />
+              <button class="cancel-order-btn">Cancel Order</button> <br />
+              <button class="print-invoice-btn">Print Tax Invoice</button>
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
